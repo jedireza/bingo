@@ -7,7 +7,6 @@ var scores = {
   B: [], I: [], N: [], G: [], O: [],
   D1: [], D2: []
 };
-var colMap = {B: 0, I: 1, N: 2, G: 3, O: 4};
 var numRec = [];
 var checkForBingo = function() {
   if (numRec.length >= 5) {
